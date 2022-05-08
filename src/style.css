@@ -204,28 +204,7 @@ footer a{
     transition: background 500ms;
 }
 
-@media (max-width: 1180px) {
-    
-    
 
-    .headerFront h1{
-        font-size: 30px;
-        letter-spacing: 15px;
-    }
-
-    .headerFront{
-        left: 15%;
-    }
-    .textWrapper1{
-        padding: 100px 150px 100px 100px;
-
-    }
-    .textWrapper2{
-        top: 60%;
-        
-    }
-
-}
 
 @media (max-width: 667px){
 
