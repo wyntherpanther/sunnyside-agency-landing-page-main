@@ -1,0 +1,311 @@
+/* Style start */
+* {
+    box-sizing: border-box;
+  }
+
+.menus{
+    transition: all 0.3s;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+}
+
+h2{
+    font-family: 'Ultra', serif;
+    color: #233041;
+    padding-bottom: 20px;
+}
+
+.header{
+    margin-bottom: 0px;
+    position: relative;
+    text-align: center;
+}
+
+img.img-fluid{
+    object-fit: cover;
+}
+
+
+
+.headerFront {
+    position: absolute ;
+    font-family: 'Ultra', serif;
+    text-align: center;
+    font-size: 72px;
+    letter-spacing: 20px;
+    color: white;
+    top: 25%;
+    left: 24%;
+}
+
+.arrow {
+    padding-top: 110px;
+}
+
+.bodyWrapper1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.bodyImage1Wrapper{
+    flex: 50%;
+}
+
+.bodyImage1{
+    width: 100%;
+}
+
+.textWrapper1{
+    flex: 50%;
+    padding: 150px 200px 150px 150px;
+    color: #868593;
+}
+
+.bodyParagraph{
+    padding-bottom: 15px;
+}
+
+.learnMore{
+    color: #233041;
+    font-family: 'Ultra', serif;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-radius: 10px;
+    padding: 0 10px;
+    line-height: 10px;
+    box-shadow: 0px 10px white;
+    transition: all 0.3s;
+}
+
+.b1:hover{
+    box-shadow: 0px 10px #F7D203;
+}
+.b2:hover{
+    box-shadow: 0px 10px #FE7B69;
+}
+
+.body2{
+    display: flex;
+}
+.bodyWrapper2{
+    position: relative;
+    text-align: center;
+    width: 50%;
+}
+
+.bodyImage2{
+   z-index: 0; 
+   width: 100%;
+}
+
+.textWrapper2{
+    position: absolute;
+    width: 70%;
+    color: #233041;
+    z-index: 5;
+    top: 70%;
+    left: 15%;
+}
+
+.textWrapper2 h2{
+    font-size: 30px;
+}
+
+.testimonial{
+    padding: 10%;
+    text-align: center;
+    background-color: #FFFBF8;
+}
+
+.TitleCLient{
+    color: #A9A9A9;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+
+.wrapperTestimonial{
+    display: flex;
+}
+
+.testimonialWrapper{
+    width:33%;
+    padding: 0 30px;
+}
+
+.profilePicture img{
+    border-radius: 100%;
+    width: 60px;
+    padding: 50px 0;
+}
+
+.testimony{
+    color:#606165;
+}
+
+.name{
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: 'Ultra', serif;
+    color: #233041;
+}
+.position{
+    color: #AEACAD;
+    font-size: 15px;
+    padding:10px;
+}
+
+.gallery{
+    display: flex;
+}
+
+.gallery img{
+    flex-basis: 25%;
+    width: 25px;
+}
+
+footer{
+    background-color: #90D4C5;
+    color: #2E7567;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.footerMenus{
+    list-style-type: none;
+    padding: 35px 0;
+}
+
+footer a{
+    color: #2E7567;
+    transition: all 0.3s;
+}
+footer a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+footer a{
+    color: #2E7567;
+}
+
+.footerMenu{
+    display: inline;
+    padding: 0 30px;
+}
+
+.socialMedias a img{
+    padding: 20px 15px;
+}
+.navbar.scrolled {
+    background: rgb(222,192,222);
+    transition: background 500ms;
+}
+
+@media (max-width: 1180px) {
+    
+    
+
+    .headerFront h1{
+        font-size: 30px;
+        letter-spacing: 15px;
+    }
+
+    .headerFront{
+        left: 15%;
+    }
+    .textWrapper1{
+        padding: 100px 150px 100px 100px;
+
+    }
+    .textWrapper2{
+        top: 60%;
+        
+    }
+
+}
+
+@media (max-width: 667px){
+
+    .headerImgWrapper{
+        height: 500px;
+    }
+    
+    img.img-fluid{
+        height: 500px;
+
+    }
+
+    .headerFront h1{
+        font-size: 24px;
+       padding-bottom: 5px;
+    }
+    .headerFront{
+        left: 3%;
+    }
+
+    .textWrapper1{
+        padding: 80px;
+        flex: 100%;
+    }
+
+    .bodyImage1Wrapper{
+        flex: 100%;
+    }
+
+    .body2{
+        display:block;
+    }
+
+    .bodyWrapper2{
+        width: 100%;
+    }
+
+    .textWrapper2 h2{
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+
+    .textWrapper2 p{
+        font-size: 12px;
+    }
+
+    .testimony{
+        font-size: 12px;
+    }
+
+    .testimonialWrapper{
+        padding: 0 10px;
+    }
+
+    .TitleCLient {
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+    
+    
+    .profilePicture img {
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+    
+    .name {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    .position {
+       
+        font-size: 10px;
+        padding: 10px 0;
+    }
+    .gallery{
+        flex-wrap: wrap;
+    }
+    .gallery img {
+        flex-basis: 50%;
+        
+    }
+    
+}
